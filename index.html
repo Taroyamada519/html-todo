@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8">
+		<title>HTML SMPLE</title>
+        <!-- <script src="./jquery&#45;1.10.2.js"></script> -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="./todo.js"></script>
+	</head>
+	<body>
+		<div>
+			<h1>TODO SAMPLE</h1>
+		</div>
+        <div id="list_area"></div>
+        <br/><br/><br/><br/>
+        <div>
+            <form id="todo-form">
+                タイトル<br/>
+                <input type="text" id="edit-title"/><br/>
+                期限<br/>
+                <input type="text" id="edit-deadline"/><br/>
+                詳細<br/>
+                <textarea id="edit-description"></textarea><br/>
+            </form>
+            <button onclick="addTodo();">追加</button>
+        </div>
+	</body>
+</html>
